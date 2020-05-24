@@ -1,0 +1,10 @@
+@import './bootstrap_custom.scss';
+
+.link {
+  color: #000;
+
+  &:hover {
+    color: #888;
+    text-decoration: none;
+  }
+}

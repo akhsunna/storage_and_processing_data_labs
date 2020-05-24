@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<%= link_to 'Back', posts_path, class: 'btn btn-light' %>
+
+<div class="card mb-3">
+<!--  <img class="card-img-top" src="..." alt="Card image cap">-->
+  <div class="card-body">
+    <h5 class="card-title"><%= @post.title %></h5>
+    <p class="card-text"><%= @post.body %></p>
+  </div>
+</div>
