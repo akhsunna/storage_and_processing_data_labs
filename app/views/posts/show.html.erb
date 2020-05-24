@@ -3,7 +3,9 @@
 <%= link_to 'Back', posts_path, class: 'btn btn-light' %>
 
 <div class="card mb-3">
-<!--  <img class="card-img-top" src="..." alt="Card image cap">-->
+  <% if @post.image %>
+    <%= image_tag @post.image_url, class: 'card-img-top', alt: 'Post image' %>
+  <% end %>
   <div class="card-body">
     <h5 class="card-title"><%= @post.title %></h5>
     <p class="card-text"><%= @post.body %></p>

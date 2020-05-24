@@ -22,6 +22,10 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'mongoid', '~> 7.0.5'
 
+gem 'shrine', '~> 3.0'
+gem 'shrine-mongoid', '~> 1.0'
+gem 'aws-sdk-s3', '~> 1.14'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
