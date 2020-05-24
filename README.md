@@ -1,1 +1,1 @@
-Lab with mongo & s3
+Lab with mongo & aws s3
