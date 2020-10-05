@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'mongoid', '~> 7.0.5'
 
-gem 'shrine', '~> 3.0'
+gem 'shrine', '~> 3.3'
 gem 'shrine-mongoid', '~> 1.0'
 gem 'aws-sdk-s3', '~> 1.14'
 
